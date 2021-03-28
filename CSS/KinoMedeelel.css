@@ -1,0 +1,245 @@
+@import "https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,500;1,700&display=swap";
+
+@media screen and (min-width: 1200px) {
+.information > img {
+width:260px;
+height:auto;
+margin-top:9%;
+margin-left:8%;
+margin-bottom:4%;
+border:solid
+}
+
+.information .angilal {
+position:absolute;
+top:11%;
+left:33%;
+width:60%;
+color:#ffebcd
+}
+
+.information {
+border-bottom:2px solid #45496d
+}
+
+.title_des {
+display:inline-block;
+padding-left:10%;
+color:#45496d;
+width:50%
+}
+
+.information .Title {
+font-size:30px;
+font-family:'Fira Sans',sans-serif;
+color:#45496d;
+border-bottom:solid;
+width:260px;
+text-align:center
+}
+
+ul > li {
+color:#000;
+font-size:20px;
+font-family:'Fira Sans',sans-serif
+}
+
+.angilal > button {
+padding:1%;
+font-size:22px;
+color:#fff;
+background-color:#45496d;
+border-radius:10px
+}
+
+.Description h3 {
+margin:.1%
+}
+
+.Description {
+display:inline-block;
+position:absolute;
+top:18%;
+left:75%;
+border:5px solid #45496d;
+border-radius:20px;
+font-family:'Fira Sans',sans-serif;
+font-size:20px;
+width:20%;
+color:#45496d;
+padding:1%
+}
+
+.trailer {
+text-align:center;
+margin-bottom:20%
+}
+}
+
+@media screen and (max-width: 1200px) and (min-width:760px) {
+.information > img {
+width:260px;
+height:auto;
+margin-top:9%;
+margin-left:2%;
+margin-bottom:2%;
+border:solid
+}
+
+.information .angilal {
+position:absolute;
+top:4%;
+left:40%;
+width:60%;
+color:#ffebcd
+}
+
+.title_des {
+display:inline-block;
+padding-left:10%;
+color:#45496d;
+width:50%
+}
+
+.information .Title {
+font-size:30px;
+font-family:'Fira Sans',sans-serif;
+color:#45496d;
+border-bottom:solid;
+width:260px;
+text-align:center
+}
+
+ul > li {
+color:#000;
+font-size:18px;
+font-family:'Fira Sans',sans-serif
+}
+
+.angilal > button {
+padding:1%;
+font-size:22px;
+color:#fff;
+background-color:#45496d;
+border-radius:10px
+}
+
+.Description h3 {
+margin:.1%
+}
+
+.Description {
+margin-top:10%;
+border:5px solid #45496d;
+border-radius:20px;
+font-family:'Fira Sans',sans-serif;
+font-size:20px;
+width:100%;
+color:#45496d;
+padding:1%
+}
+
+.trailer {
+text-align:center;
+margin-bottom:20%
+}
+}
+
+@media screen and (min-width: 320px) and (max-width:760px) {
+.information > img {
+width:260px;
+height:auto;
+margin-top:30%;
+margin-left:2%;
+margin-bottom:2%;
+border:solid
+}
+
+.information .angilal {
+position:absolute;
+top:6%;
+left:100%;
+width:100%;
+color:#ffebcd
+}
+
+.title_des {
+padding-left:10%;
+color:#45496d;
+width:50%
+}
+
+.information .Title {
+font-size:30px;
+font-family:'Fira Sans',sans-serif;
+color:#45496d;
+border-bottom:solid;
+width:260px;
+text-align:center
+}
+
+ul > li {
+color:#000;
+font-size:18px;
+font-family:'Fira Sans',sans-serif
+}
+
+.angilal > .burden {
+position:absolute;
+top:95%;
+left:20%;
+padding:1%;
+font-size:22px;
+color:#fff;
+background-color:#45496d;
+border-radius:10px
+}
+
+.angilal > .now {
+position:absolute;
+top:95%;
+left:1%;
+padding:1%;
+font-size:22px;
+color:#fff;
+background-color:#45496d;
+border-radius:10px
+}
+
+.Description h3 {
+margin:.1%
+}
+
+.Description {
+margin-top:10%;
+border:5px solid #45496d;
+border-radius:20px;
+font-family:'Fira Sans',sans-serif;
+font-size:20px;
+width:225%;
+color:#45496d;
+padding:1%
+}
+
+.trailer {
+text-align:center;
+margin-bottom:0
+}
+
+footer h2 {
+font-family:'Inter',sans-serif;
+color:blue;
+font-size:40px
+}
+
+footer a {
+font-family:'Yanone Kaffeesatz',sans-serif;
+font-size:30px;
+color:currentColor
+}
+
+p {
+padding:0;
+margin:0
+}
+}
