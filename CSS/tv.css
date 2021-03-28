@@ -45,7 +45,7 @@
     }
     .channel-TV p{
         display: inline-block;
-        width: 55%;
+        width: 44%;
         margin-right: 8%;
         margin-top: 6%;
         font-family: 'PT Sans Caption', sans-serif;
@@ -84,8 +84,9 @@
     }
     .epir{
         display: inline-block;
-        float: right;
-        margin-top: -4%;
+        position: absolute;
+        top: 0%;
+        margin-top: 4%;
         margin-right: 25%;
     }
 }
