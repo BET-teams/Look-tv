@@ -1,0 +1,137 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap";
+
+.All {
+text-align:center;
+width:100%;
+}
+
+section h1 {
+font-family:'Roboto Condensed',sans-serif;
+font-size:45px;
+font-weight:bolder;
+margin:7% 61% 2% 5%;
+text-align:center;
+border-bottom:4px solid;
+}
+
+.All img {
+width:220px;
+}
+
+article p {
+font-family:'Roboto Condensed',sans-serif;
+font-weight:700;
+font-size:25px;
+margin-top:.1%;
+margin-bottom:.2%;
+}
+
+main ul>li {
+text-align:left;
+display:inline-block;
+margin:.1% -1.1% .1px 3%;
+}
+
+.HBO {
+margin-bottom:40%;
+}
+
+main>article>h2 {
+font-family:'Oswald Train',sans-serif;
+font-size:36px;
+font-weight:bolder;
+margin:.1% auto .1% 2%;
+}
+
+.Hit-Prev,.Hit-Next,.Child-Prev,.Child-Next,.Anime-Prev,.Anime-Next,.Europh-Prev,.Europh-Next,.HBO-Prev,.HBO-Next {
+display:none;
+}
+
+main button {
+color:#fff;
+border:rgba(0,0,0,0);
+background-color:rgba(0,0,0,0);
+font-size:36px;
+}
+
+.Big-Next {
+display:inline-block;
+float:right;
+margin-top:10%;
+}
+
+.Big-Prev {
+display:inline-block;
+float:left;
+margin-top:10%;
+}
+
+@media only screen and (min-width:760px) and (max-width:1200px) {
+section h1 {
+font-size:30px;
+margin:9% 50% 2% 5%;
+border-bottom:4px solid;
+}
+
+article h2 {
+font-size:30px;
+}
+
+.All_image4,.All_image5,.All_image6 {
+display:none;
+}
+
+.Big-Next {
+margin-top:20%;
+}
+
+.Big-Prev {
+margin-top:20%;
+}
+
+.HBO {
+margin-bottom:100%;
+}
+}
+
+@media only screen and (min-width:300px) and (max-width:760px) {
+section h1 {
+font-size:16px;
+margin:22% 30% 2% 5%;
+border-bottom:2px solid;
+}
+
+article>h2 {
+font-size:14px;
+}
+
+.Name {
+font-size:10px;
+text-align:center;
+}
+
+main {
+width:80%;
+margin-bottom:100%;
+}
+
+.Hit,.Anime,.Europh,.Child,.HBO {
+display:none;
+}
+
+article button {
+display:none;
+}
+
+.All img {
+width:60px;
+}
+
+main ul>li {
+width:60px;
+}
+
+.Big-Prev,.Big-Next {
+display:none;
+}
+}
