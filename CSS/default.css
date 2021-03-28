@@ -1,6 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,500;1,500&family=Play:wght@400;700&display=swap";
 
 @import "https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap";
+
 :root {
 --default-background-color:#84c1efd6;
 --default-color:linear-gradient(to right,#0073ff,#48fbf1);
