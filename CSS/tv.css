@@ -1,211 +1,399 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap');
-@media only screen and (min-width:1260px){
-    main{
-        margin-top: 5%;
-        margin-left: 2%;
-        margin-bottom: 10%;
-    }
-    .fa-chevron-circle-down{
-        display: none;
-    }
-    .fa-chevron-circle-up{
-        display: inline-block;
-        float: right;
-        margin-top: 1%;
-        font-size: 20px;
-        padding-right: 30%;
-    }
-    .fa-chevron-circle-right{
-        display: inline-block;
-    }
-    .fas{cursor: pointer;}
-    .fa-chevron-circle-left{
-        display: inline-block;
-    }
-    .ipadORmobile{display: none}
-    main h1{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 28px;
-    } 
-    .channel-TV{
-        display: inline-block;
-        top:10%;
-        border:solid;
-        width: 28%;
-    }
-    .dialog-National-channel,.dialog-National-package,.dialog-National-family-package,.dialog-National-HBO-channel,
-    .dialog-entetainment-package,.diaiog-sport-package,.dialog-Traffic-channel{
-        border-bottom: 1px solid;
-    }
-    .channel-TV h2{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 22px;
-        width: 55%;
-        margin-left: 20%;
-    }
-    .channel-TV p{
-        display: inline-block;
-        width: 44%;
-        margin-right: 8%;
-        margin-top: 6%;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-weight: bolder;
-        font-size: 14px;
-        float: right;}
-        
-    .channel-TV img{
-        margin-left: 4%;
-        width: 120px;
-        height:auto;
-    }
-    .date{
-        display: inline-block;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 25px;
-        font-weight: bolder;
-    }
-    .dialog-date{
-        position: fixed;
-        top:6% ;
-        right: -4%;
-        width: 24%;
-    }
-    .date-title{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-    }
-    .bagts{
-        display: inline-block;
-        margin-top: 0.3%;
-        border: #6368736b solid;
-        background-color: #00ffff6b;
-    }
-    .epir{
-        display: inline-block;
-        position: absolute;
-        top: 0%;
-        margin-top: 4%;
-        margin-right: 25%;
-    }
+@import "https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap";
+
+@media only screen and (min-width:1260px) {
+.img-p {
+display:inline;
 }
-@media only screen and (min-width:760px) and (max-width:1260px){
-    main{
-        margin-top: 7%;
-        margin-left: 2%;
-        margin-bottom: 10%;
-    }
-    .fa-chevron-circle-down{
-        display: none;
-    }
-    .fa-chevron-circle-up{
-        display: inline-block;
-        float: right;
-        margin-top: 2%;
-        font-size: 14px;
-        padding-right: 12%;
-    }
-    .fa-chevron-circle-right{
-        display: inline-block;
-        font-size: 20px;
-    }
-    .fas{cursor: pointer;}
-    .fa-chevron-circle-left{
-        display: inline-block;
-        font-size: 20px;
-    }
-    main h1{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 26px;
-    } 
-    .channel-TV{
-        display: inline-block;
-        top:10%;
-        border:solid;
-        width: 30%;
-    }
-    .dialog-National-channel,.dialog-National-package,.dialog-National-family-package,.dialog-National-HBO-channel,
-    .dialog-entetainment-package,.diaiog-sport-package,.dialog-Traffic-channel{
-        border-bottom: 1px solid;
-    }
-    .channel-TV h2{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 14px;
-        width: 60%;
-        margin-left: 2%;
-        text-align: right;
-    }
-    .channel-TV p{
-        display: inline-block;
-        width: 48%;
-        margin-right: 0%;
-        margin-top: 6%;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-weight: bolder;
-        font-size: 10px;
-        float: right;}
-        
-    .channel-TV img{
-        margin-left: 4%;
-        width: 78px;
-        height:auto;
-    }
-    .date{
-        display: inline-block;
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 25px;
-        font-weight: bolder;
-    }
-    .ipadORmobile-Prev{
-        display: none;
-        position: fixed;
-        top: 50%;
-        border: none;
-        font-size: 50px;
-        font-weight: bolder;
-        right: 0%;
-        background-color: rgba(0, 0, 0, 0);
-        color: white
-    }
-    .ipadORmobile-Next{
-        display: inline-block;
-        position: fixed;
-        top: 60%;
-        border: none;
-        font-size: 50px;
-        font-weight: bolder;
-        right: 34%;
-        background-color: rgba(0, 0, 0, 0);
-        color: white
-    }
-    .dialog-date{
-        display: ;
-        position: fixed;
-        top:40% ;
-        right: 4%;
-        width: 30%;
-    }
-    .date-title{
-        font-family: 'PT Sans Caption', sans-serif;
-        font-size: 20px;
-        font-weight: bold;
-        text-align: center;
-        border-bottom: 2px white solid;
-        margin-top: 0%;
-        margin-bottom: 0%;
-    }
-    .bagts{
-        display: inline-block;
-        margin-top: 0.3%;
-        border: #6368736b solid;
-        background-color: #00ffff6b;
-    }
-    .epir{
-        display: inline-block;
-        position: absolute;
-        top: 0%;
-        margin-top: 6%;
-        margin-right: 25%;
-    }
+
+main {
+margin-top:5%;
+margin-left:2%;
+margin-bottom:10%;
+}
+
+.fa-chevron-circle-down {
+display:none;
+}
+
+.fa-chevron-circle-up {
+display:inline-block;
+float:right;
+margin-top:1%;
+font-size:20px;
+padding-right:30%;
+}
+
+.fa-chevron-circle-right {
+display:inline-block;
+}
+
+.fas {
+cursor:pointer;
+}
+
+.fa-chevron-circle-left {
+display:inline-block;
+}
+
+.ipadORmobile {
+display:none;
+}
+
+main h1 {
+font-family:'PT Sans Caption',sans-serif;
+font-size:28px;
+}
+
+.channel-TV {
+display:inline-block;
+top:10%;
+border:solid;
+width:28%;
+}
+
+.dialog-National-channel,.dialog-National-package,.dialog-National-family-package,.dialog-National-HBO-channel,.dialog-entetainment-package,.diaiog-sport-package,.dialog-Traffic-channel {
+border-bottom:1px solid;
+}
+
+.channel-TV h2 {
+font-family:'PT Sans Caption',sans-serif;
+font-size:22px;
+width:55%;
+margin-left:20%;
+}
+
+.channel-TV p {
+display:inline-block;
+width:44%;
+margin-right:8%;
+margin-top:6%;
+font-family:'PT Sans Caption',sans-serif;
+font-weight:bolder;
+font-size:14px;
+float:right;
+}
+
+.channel-TV img {
+margin-left:4%;
+width:120px;
+height:auto;
+}
+
+.date {
+display:inline-block;
+font-family:'PT Sans Caption',sans-serif;
+font-size:25px;
+font-weight:bolder;
+}
+
+.dialog-date {
+position:fixed;
+top:6%;
+right:-4%;
+width:24%;
+}
+
+.date-title {
+font-family:'PT Sans Caption',sans-serif;
+font-size:20px;
+font-weight:700;
+text-align:center;
+}
+
+.bagts {
+display:inline-block;
+margin-top:.3%;
+border:#6368736b solid;
+background-color:#00ffff6b;
+}
+
+.epir {
+display:inline-block;
+position:absolute;
+top:0;
+margin-top:4%;
+margin-right:25%;
+}
+}
+
+@media only screen and (min-width:760px) and (max-width:1260px) {
+.img-p {
+display:inline;
+}
+
+main {
+margin-top:7%;
+margin-left:2%;
+margin-bottom:10%;
+}
+
+.fa-chevron-circle-down {
+display:none;
+}
+
+.fa-chevron-circle-up {
+display:inline-block;
+float:right;
+margin-top:2%;
+font-size:14px;
+padding-right:12%;
+}
+
+.fa-chevron-circle-right {
+display:inline-block;
+font-size:20px;
+}
+
+.fas {
+cursor:pointer;
+}
+
+.fa-chevron-circle-left {
+display:inline-block;
+font-size:20px;
+}
+
+main h1 {
+font-family:'PT Sans Caption',sans-serif;
+font-size:26px;
+}
+
+.channel-TV {
+display:inline-block;
+top:10%;
+border:solid;
+width:30%;
+}
+
+.dialog-National-channel,.dialog-National-package,.dialog-National-family-package,.dialog-National-HBO-channel,.dialog-entetainment-package,.diaiog-sport-package,.dialog-Traffic-channel {
+border-bottom:1px solid;
+}
+
+.channel-TV h2 {
+font-family:'PT Sans Caption',sans-serif;
+font-size:14px;
+width:60%;
+margin-left:2%;
+text-align:right;
+}
+
+.channel-TV p {
+display:inline-block;
+width:48%;
+margin-right:0;
+margin-top:6%;
+font-family:'PT Sans Caption',sans-serif;
+font-weight:bolder;
+font-size:10px;
+float:right;
+}
+
+.channel-TV img {
+margin-left:4%;
+width:78px;
+height:auto;
+}
+
+.date {
+display:inline-block;
+font-family:'PT Sans Caption',sans-serif;
+font-size:25px;
+font-weight:bolder;
+}
+
+.ipadORmobile-Prev {
+display:none;
+position:fixed;
+top:50%;
+border:none;
+font-size:50px;
+font-weight:bolder;
+right:0;
+background-color:rgba(0,0,0,0);
+color:#fff;
+}
+
+.ipadORmobile-Next {
+display:inline-block;
+position:fixed;
+top:60%;
+border:none;
+font-size:50px;
+font-weight:bolder;
+right:34%;
+background-color:rgba(0,0,0,0);
+color:#fff;
+}
+
+.dialog-date {
+display:;
+position:fixed;
+top:40%;
+right:4%;
+width:30%;
+}
+
+.date-title {
+font-family:'PT Sans Caption',sans-serif;
+font-size:20px;
+font-weight:700;
+text-align:center;
+border-bottom:2px #fff solid;
+margin-top:0;
+margin-bottom:0;
+}
+
+.bagts {
+display:inline-block;
+margin-top:.3%;
+border:#6368736b solid;
+background-color:#00ffff6b;
+}
+
+.epir {
+display:inline-block;
+position:absolute;
+top:0;
+margin-top:6%;
+margin-right:25%;
+}
+}
+
+@media only screen and (min-width:320px) and (max-width:760px) {
+.img-p {
+display:inline-block;
+}
+
+main {
+margin-top:30%;
+margin-left:2%;
+margin-bottom:50%;
+}
+
+.fa-chevron-circle-down {
+display:none;
+}
+
+.fa-chevron-circle-up {
+display:inline-block;
+float:right;
+margin-top:2%;
+font-size:24px;
+padding-right:12%;
+}
+
+.fa-chevron-circle-right {
+display:inline-block;
+font-size:40px;
+}
+
+.fas {
+cursor:pointer;
+}
+
+.fa-chevron-circle-left {
+display:inline-block;
+font-size:40px;
+}
+
+main h1 {
+text-align:center;
+font-family:'PT Sans Caption',sans-serif;
+margin-bottom:0;
+font-size:45px;
+color:#00008b;
+}
+
+.channel-TV {
+text-align:center;
+width:900px;
+border:solid #0647ade0 10px;
+background:#2ab185b8;
+box-shadow:-3px 4px 30px 0 #0647ade0;
+margin-left:15%;
+}
+
+.dialog-National-channel,.dialog-National-package,.dialog-National-family-package,.dialog-National-HBO-channel,.dialog-entetainment-package,.diaiog-sport-package,.dialog-Traffic-channel {
+border-top:5px #0647ade0 solid;
+}
+
+.channel-TV h2 {
+text-align:center;
+font-family:'PT Sans Caption',sans-serif;
+font-size:40px;
+color:#f0f;
+margin-top:5px;
+padding-bottom:10px;
+border-bottom:5px #0647ade0 solid;
+}
+
+.channel-TV p {
+text-align:center;
+font-family:'PT Sans Caption',sans-serif;
+font-weight:bolder;
+font-size:20px;
+}
+
+.channel-TV img {
+width:250px;
+border-bottom:4px #1d1ba796 solid;
+}
+
+.date {
+display:inline-block;
+}
+
+.ipadORmobile-Prev {
+display:none;
+position:;
+top:50%;
+border:none;
+font-size:;
+font-weight:bolder;
+right:0;
+background-color:rgba(0,0,0,0);
+color:#fff;
+}
+
+.ipadORmobile-Next {
+display:inline-block;
+position:;
+top:60%;
+border:none;
+font-size:;
+font-weight:bolder;
+right:34%;
+background-color:rgba(0,0,0,0);
+color:#fff;
+}
+
+.dialog-date {
+width:1000px;
+text-align:center;
+font-family:'PT Sans Caption',sans-serif;
+font-size:40px;
+font-weight:bolder;
+}
+
+.date-title {
+font-family:'PT Sans Caption',sans-serif;
+font-size:30px;
+margin-right:20%;
+margin-left:20%;
+border:solid;
+}
+
+.bagts {
+}
+
+.epir {
+width:1000px;
+position:relative;
+text-align:center;
+}
+
+.epir h2 {
+font-family:'PT Sans Caption',sans-serif;
+font-size:50px;
+}
 }
