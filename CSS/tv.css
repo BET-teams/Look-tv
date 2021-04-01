@@ -12,9 +12,9 @@ margin-bottom:10%;
 }
 
 .dialog-date {
-position:fixed;
+position:absolute;
 top:6%;
-right:0%;
+right:-2%;
 width:24%;
 }
 
@@ -42,7 +42,7 @@ cursor:pointer;
 display:inline-block;
 }
 
-.ipadORmobile {
+.ipadORmobile-Prev,.ipadORmobile-Next{
 display:none;
 }
 
@@ -54,6 +54,7 @@ font-size:28px;
 .channel-TV {
 display:inline-block;
 top:10%;
+margin-bottom:5%;
 border:solid;
 width:28%;
 }
@@ -95,14 +96,14 @@ font-weight:bolder;
 
 .date-title {
 font-family:'PT Sans Caption',sans-serif;
-font-size:16px;
+font-size:15px;
 margin-left: 5%;
 }
 
 .bagts {
 display:inline-block;
 margin-top:.3%;
-width: 350px;
+width: 250px;
 border:#6368736b solid;
 background-color:#00ffff6b;
 }
@@ -227,10 +228,9 @@ color:#fff;
 }
 
 .dialog-date {
-display:;
-position:fixed;
+position:absolute;
 top:40%;
-right:4%;
+right:0%;
 width:30%;
 }
 
