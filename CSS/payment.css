@@ -1,149 +1,176 @@
-@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap";
 
-@import "https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap";
-main button {
-    border:rgba(0,0,0,0);
-    background-color:rgba(0,0,0,0);
-    color:#fff;
-    cursor:pointer;
-    }
-    main{
-        width: 80%;
-        margin: 11% auto auto auto;
-        background-color: rgba(199, 218, 201,0.5);
-        border-radius: 20px;
-    }
-@media only screen and (min-width: 1278px) {
-.piece_price1,.piece_price2,.piece_price3 {
-    border:2px solid;
-    margin-left:0 auto auto 6%;
-    display:inline-block;
-    width:25%
-    }
-    body{
-        background-image: url(https://image.freepik.com/free-vector/online-cinema-banner-vector-realistic-computer-monitor-movie-premiere-show-blue-curtain-theater-marketing_87720-890.jpg);
-        background-size: 100% 100%;
-    }
-.dialogkhanbank-all{
-    border-radius: 20px;
-    width: 100%;
-    height: 50%;
-    margin: 11% 0% auto 0%;
-    border: solid;
+@import "https://fonts.googleapis.com/css2?family=DotGothic16&family=Oswald:wght@200&display=swap";
+
+.dialogkhanbank-all {
+background-color:#9b9b9b;
+margin-top:8%;
+margin-bottom:15%;
+margin-right:auto;
+margin-left:auto;
+width:80%;
+border:15px #fff solid;
+border-radius:5px
 }
-.background h1{
-    background-color: rgba(200, 219, 201,0.5);
-    padding-top: auto;
-    padding-bottom: auto;
-    height: 40px;
-}
-.background h2{
-    border: rgba(199, 218, 201,0.5);
-}
-.table {
-text-align:center;
-margin-left:5%;
-margin-bottom:14%;
-width:90%
-}
-.table h1 {
-margin-bottom:1%;
-font-family:'Oswald',sans-serif;
-margin-left:35%;
-margin-right:35%;
-color: white;
-border-bottom:6px white solid;
-font-size:36px
-}
-.table h2 {
-margin:auto;
-border-bottom:2px solid
-}
-.table h3 {
-margin:auto;
-border-bottom:2px solid
-}
-.table button {
+
+.dialogkhanbank-all > h1 {
+font-family:'Oswald';
+font-size:68px;
 color:#fff;
-background-color:#000
-}
-}
-
-@media only screen and (min-width: 760px) and (max-width:1278px) {
-    .piece_price1,.piece_price2,.piece_price3 {
-    border:2px solid;
-    margin-left:0 auto auto 6%;
-    display:inline-block;
-    width:25%
-    }
-.table {
+background-color:#58a200;
 text-align:center;
-margin-left:5%;
-margin-bottom:20%;
-width:90%
+margin-bottom:0;
+margin-top:0
 }
 
-.table h1 {
-margin-bottom:1%;
-font-family:'Oswald',sans-serif;
-margin-left:30%;
-margin-right:30%;
-border-bottom:3px solid;
-font-size:30px
+.dialogkhanbank-all > h2 {
+padding-left:10%;
+font-family:'Oswald';
+font-size:55px;
+margin-bottom:.5%;
+margin-top:.5%;
+border-bottom:#fff solid;
+border-top:5px #fff solid
 }
 
-.table h2 {
-margin:auto;
-border-bottom:2px solid
+.dialogkhanbank-all h3 {
+display:inline-block;
+font-size:48px;
+margin-left:10%;
+margin-bottom:0;
+margin-top:0;
+font-family:'Oswald';
+font-weight:bolder;
+width:20%
 }
 
-.table h3 {
-margin:auto;
-border-bottom:2px solid
+.dialogkhanbank-all p {
+padding-left:10%;
+margin-top:.5%;
+margin-bottom:.5%;
+margin-bottom:.4%;
+border-bottom:5px #fff solid
 }
 
-.table button {
+.dialogkhanbank-all a {
+color:#1a1a1a;
+font-family:'Oswald';
+font-weight:bolder;
+font-size:40px
+}
+
+.dialogkhanbank-all .pay-small-select {
+padding-left:10%;
+margin-top:.5%;
+margin-bottom:.5%;
+font-family:'Oswald';
+font-size:45px;
+margin-bottom:.4%;
+border-bottom:2px #fff solid;
+color:#000
+}
+
+.dialogkhanbank-all button {
+width:160px;
+height:40px;
+margin:1%;
+font-size:30px;
+font-weight:bolder;
+background-color:#424242;
 color:#fff;
-background-color:#000
-}
+border-radius:5px;
+border:2px #fff solid
 }
 
-@media only screen and (min-width: 319px) and (max-width:760px) {
-.piece_price1,.piece_price2,.piece_price3 {
-    border:2px solid;
-    margin-left:0 auto auto 6%;
-    display:inline-block;
-    width:25%
-    }
-.table {
-text-align:center;
-margin-left:5%;
-margin-bottom:40%;
+.fas {
+font-size:26px
+}
+
+@media only screen and (max-width:1260px) and (min-width:760px) {
+.dialogkhanbank-all {
 width:90%
 }
 
-.table h1 {
-margin-bottom:1%;
-margin-left:20%;
-margin-right:20%;
-font-family:'Oswald',sans-serif;
-border-bottom:3px solid;
+.dialogkhanbank-all > h1 {
+font-size:78px
+}
+
+.dialogkhanbank-all > h2 {
+font-size:50px
+}
+
+.dialogkhanbank-all a {
+font-family:'Oswald';
+font-weight:bolder;
+font-size:40px
+}
+
+.dialogkhanbank-all h3 {
+margin-top:.5%;
+margin-bottom:.5%;
+font-family:'Oswald';
+font-size:55px
+}
+
+.dialogkhanbank-all .pay-small-select {
+font-size:35px
+}
+
+.dialogkhanbank-all button {
+width:150px;
+height:50px;
+margin:1%;
+font-size:30px;
+border:5px #fff solid
+}
+
+.fas {
+font-size:26px
+}
+}
+
+@media only screen and (max-width:760px) and (min-width:320px) {
+.dialogkhanbank-all {
+margin-top:15%;
+margin-bottom:15%;
+width:80%;
+border-radius:5px
+}
+
+.dialogkhanbank-all > h1 {
+font-size:28px
+}
+
+.dialogkhanbank-all > h2 {
 font-size:20px
 }
 
-.table h2 {
-margin:auto;
-border-bottom:2px solid
+.dialogkhanbank-all a {
+color:#1a1a1a;
+font-family:'Oswald';
+font-weight:bolder;
+font-size:15px
 }
 
-.table h3 {
-margin:auto;
-border-bottom:2px solid;
-font-size:12px
+.dialogkhanbank-all h3 {
+margin-top:.5%;
+margin-bottom:.5%;
+font-family:'Oswald';
+font-size:25px
 }
 
-.table button {
-color:#fff;
-background-color:#000
+.dialogkhanbank-all .pay-small-select {
+font-size:15px
+}
+
+.dialogkhanbank-all button {
+width:80px;
+height:25px;
+margin:1%;
+font-size:10px
+}
+
+.fas {
+font-size:26px
 }
 }
