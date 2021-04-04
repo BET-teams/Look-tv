@@ -1,0 +1,149 @@
+@import "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital@1&display=swap";
+
+@import "https://fonts.googleapis.com/css2?family=Oswald&family=Train+One&display=swap";
+main button {
+    border:rgba(0,0,0,0);
+    background-color:rgba(0,0,0,0);
+    color:#fff;
+    cursor:pointer;
+    }
+    main{
+        width: 80%;
+        margin: 11% auto auto auto;
+        background-color: rgba(199, 218, 201,0.5);
+        border-radius: 20px;
+    }
+@media only screen and (min-width: 1278px) {
+.piece_price1,.piece_price2,.piece_price3 {
+    border:2px solid;
+    margin-left:0 auto auto 6%;
+    display:inline-block;
+    width:25%
+    }
+    body{
+        background-image: url(https://image.freepik.com/free-vector/online-cinema-banner-vector-realistic-computer-monitor-movie-premiere-show-blue-curtain-theater-marketing_87720-890.jpg);
+        background-size: 100% 100%;
+    }
+.dialogkhanbank-all{
+    border-radius: 20px;
+    width: 100%;
+    height: 50%;
+    margin: 11% 0% auto 0%;
+    border: solid;
+}
+.background h1{
+    background-color: rgba(200, 219, 201,0.5);
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 40px;
+}
+.background h2{
+    border: rgba(199, 218, 201,0.5);
+}
+.table {
+text-align:center;
+margin-left:5%;
+margin-bottom:14%;
+width:90%
+}
+.table h1 {
+margin-bottom:1%;
+font-family:'Oswald',sans-serif;
+margin-left:35%;
+margin-right:35%;
+color: white;
+border-bottom:6px white solid;
+font-size:36px
+}
+.table h2 {
+margin:auto;
+border-bottom:2px solid
+}
+.table h3 {
+margin:auto;
+border-bottom:2px solid
+}
+.table button {
+color:#fff;
+background-color:#000
+}
+}
+
+@media only screen and (min-width: 760px) and (max-width:1278px) {
+    .piece_price1,.piece_price2,.piece_price3 {
+    border:2px solid;
+    margin-left:0 auto auto 6%;
+    display:inline-block;
+    width:25%
+    }
+.table {
+text-align:center;
+margin-left:5%;
+margin-bottom:20%;
+width:90%
+}
+
+.table h1 {
+margin-bottom:1%;
+font-family:'Oswald',sans-serif;
+margin-left:30%;
+margin-right:30%;
+border-bottom:3px solid;
+font-size:30px
+}
+
+.table h2 {
+margin:auto;
+border-bottom:2px solid
+}
+
+.table h3 {
+margin:auto;
+border-bottom:2px solid
+}
+
+.table button {
+color:#fff;
+background-color:#000
+}
+}
+
+@media only screen and (min-width: 319px) and (max-width:760px) {
+.piece_price1,.piece_price2,.piece_price3 {
+    border:2px solid;
+    margin-left:0 auto auto 6%;
+    display:inline-block;
+    width:25%
+    }
+.table {
+text-align:center;
+margin-left:5%;
+margin-bottom:40%;
+width:90%
+}
+
+.table h1 {
+margin-bottom:1%;
+margin-left:20%;
+margin-right:20%;
+font-family:'Oswald',sans-serif;
+border-bottom:3px solid;
+font-size:20px
+}
+
+.table h2 {
+margin:auto;
+border-bottom:2px solid
+}
+
+.table h3 {
+margin:auto;
+border-bottom:2px solid;
+font-size:12px
+}
+
+.table button {
+color:#fff;
+background-color:#000
+}
+}
